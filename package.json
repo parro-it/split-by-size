@@ -1,6 +1,6 @@
 {
   "name": "split-by-size",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Split a string in pieces of specified lengths",
   "scripts": {
     "test": "ava && lintes .",
@@ -18,10 +18,14 @@
     "cjs": true
   },
   "ava": {
-    "require": ["@std/esm"]
+    "require": [
+      "@std/esm"
+    ]
   },
   "dependencies": {
     "arrify": "^1.0.1"
   },
-  "files": ["index.js"]
+  "files": [
+    "index.js"
+  ]
 }
