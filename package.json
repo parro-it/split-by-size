@@ -1,0 +1,27 @@
+{
+  "name": "split-by-size",
+  "version": "1.0.0",
+  "description": "Split a string in pieces of specified lengths",
+  "scripts": {
+    "test": "ava && lintes .",
+    "dev": "ava --watch && lintes . --watch"
+  },
+  "repository": "parro-it/split-by-size.git",
+  "author": "Andrea Parodi <andrea@parro.it>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "lintes": "^1.4.0"
+  },
+  "@std/esm": {
+    "esm": "js",
+    "cjs": true
+  },
+  "ava": {
+    "require": ["@std/esm"]
+  },
+  "dependencies": {
+    "arrify": "^1.0.1"
+  },
+  "files": ["index.js"]
+}
